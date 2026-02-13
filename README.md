@@ -22,7 +22,7 @@
 </div>
 ```
 ```index.js
-import { state, effect, get, set } from "./modules/signals.js";
+import { state, effect, get, set } from "./src/signals.js";
 
 document.addEventListener('DOMContentLoaded', () => {
     const p = document.querySelector("#p")
